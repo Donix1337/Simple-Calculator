@@ -1,5 +1,7 @@
 print("Simple Calculator")
 
 number1 = input("Enter First Number: ")
+number2 = input("Enter Second Number: ")
+sum = int(number1) + int(number2)
 
-print("You entered " + number1)
+print("The Sum Is: " + str(sum))
